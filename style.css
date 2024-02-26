@@ -1,0 +1,124 @@
+.navigation-bar{
+    display: flex;
+}
+#cart{
+    padding-left: 70%;
+    display: flex;
+}
+.box{
+    background-image: url('assets/kw-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: larger;
+    color: white;
+}
+.books{
+    height:300px;
+}
+.book-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.games{
+    height:300px;
+}
+.crafts{
+    height: 300px;
+}
+.button{
+    align-items: right;
+}
+.footer-section{
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+.last-content{
+    text-align: right;
+    padding-right: 20px;
+}
+.last-pic{
+   margin-left: 50px;
+}
+.add-cont{
+    background-color: rgb(102, 82, 255);
+    border:border-box;
+    height:20px;
+    width:40px;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 7px;
+    color: white;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding:5px;
+}
+.no-space{
+    padding:2px;
+}
+@media (max-width: 500px){
+
+    .box{
+        background-image: url('assets/kw-background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 780px;
+        height:auto;
+        padding-top: 20px;
+        padding-left: 40px;
+        font-size: larger;
+        color: white;
+    }
+    #cart{
+        padding-left: 80%;
+        display: flex;
+    }
+    .header-text{
+        font-size: medium;
+    }
+    .book-section{
+        display:inline
+    }
+    .container{
+    
+    }
+    .books{
+        height:600px;
+        width:500px;
+    }
+    .games{
+        height:600px;
+        width:500px;
+    }
+    .crafts{
+        height:600px;
+        width:500px;
+    }
+    .picture{
+        border-radius: 50%;
+        height:100px;
+        width:100px;
+    }
+    .footer-section{
+        width:780px;
+    }
+    .section-container{
+        margin-left: 30% ;
+    }
+    
+}
